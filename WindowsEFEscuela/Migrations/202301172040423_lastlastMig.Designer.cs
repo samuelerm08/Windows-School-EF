@@ -7,13 +7,13 @@ namespace WindowsEFEscuela.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class dbUpdateTables : IMigrationMetadata
+    public sealed partial class lastlastMig : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(dbUpdateTables));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(lastlastMig));
         
         string IMigrationMetadata.Id
         {
-            get { return "202301171226494_dbUpdateTables"; }
+            get { return "202301172040423_lastlastMig"; }
         }
         
         string IMigrationMetadata.Source
