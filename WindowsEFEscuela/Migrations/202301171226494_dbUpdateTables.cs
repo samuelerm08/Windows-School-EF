@@ -1,8 +1,8 @@
-﻿namespace WindowsEFEscuela.Migrations
+﻿using System;
+using System.Data.Entity.Migrations;
+
+namespace WindowsEFEscuela.Migrations
 {
-    using System;
-    using System.Data.Entity.Migrations;
-    
     public partial class dbUpdateTables : DbMigration
     {
         public override void Up()
@@ -14,7 +14,7 @@
             AddForeignKey("dbo.Alumnos", "ProfesorId", "dbo.Profesores", "ProfesorId", cascadeDelete: true);
             AddForeignKey("dbo.Materias", "AulaId", "dbo.Aulas", "Id", cascadeDelete: true);
         }
-        
+
         public override void Down()
         {
             DropForeignKey("dbo.Materias", "AulaId", "dbo.Aulas");
