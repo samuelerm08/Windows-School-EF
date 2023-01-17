@@ -16,5 +16,6 @@ namespace WindowsEFEscuela.Models
         [StringLength(1)]
         [Required]
         public string Codigo { get; set; }
+        public List<Materia> Materias { get; set; }
     }
 }

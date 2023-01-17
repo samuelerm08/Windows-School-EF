@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202301162013575_dbUpdate3.designer.cs">
       <DependentUpon>202301162013575_dbUpdate3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301171226494_dbUpdateTables.cs" />
+    <Compile Include="Migrations\202301171226494_dbUpdateTables.designer.cs">
+      <DependentUpon>202301171226494_dbUpdateTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\Aula.cs" />
@@ -76,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202301162013575_dbUpdate3.resx">
       <DependentUpon>202301162013575_dbUpdate3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301171226494_dbUpdateTables.resx">
+      <DependentUpon>202301171226494_dbUpdateTables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

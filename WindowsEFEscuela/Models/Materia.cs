@@ -20,6 +20,10 @@ namespace WindowsEFEscuela.Models
         [StringLength(50)]
         [Required]
         public string Programa { get; set; }
+        public int AulaId { get; set; }
+
+        [ForeignKey("AulaId")]
+        public Aula Aula { get; set; }
     }
 }
 
